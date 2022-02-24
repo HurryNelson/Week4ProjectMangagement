@@ -1,0 +1,81 @@
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, h3, p, div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for images */
+img {
+    width: 60%;
+    display: block;
+    padding-bottom: 1rem;
+}
+
+a {
+	color: #281bd6;
+}	
+a:hover {
+	color: #b690f0;
+}
+
+/* HTML construct tag */
+html {
+	/* setting font-size here acts as a multiplier for all font sizes styled below that use em, rem, or % */
+	font-size: 100%;
+}
+body {
+	font-family: Helvetica, Georgia, sans-serif;
+	line-height: 1.4;
+}
+
+
+@media screen and (min-width:480px) {
+	html {
+		font-size: 70%;
+	}
+	header, nav, main, footer {
+		margin: 0 2% 0 2%;
+	}
+		
+} /* closes 480px M Q */
+
+@media screen and (min-width:768px) {
+	html {
+		/* scale all em, rem, and % amounts up by 10%: */
+		font-size: 80%;
+	}
+	header, nav, main, footer {
+		margin: 0 4% 0 4%;
+	}
+	/* on wider screens, hide mobile menu icon and display main nav links side-by-side: */
+	.menu-icon {
+		display: none;
+	}
+	nav li {
+		display: inline-block;
+	}
+} /* closes 780 M Q */
+
+@media screen and (min-width:960px) {
+	html {
+		/* scale all em, rem, and % amounts up by 10%: */
+		font-size: 90%;
+	}
+	header, nav, main, footer {
+		margin: 0 8% 0 8%;
+	}
+} /* closes 960 M Q */
+
+@media screen and (min-width:1280px) {
+	html {
+		/* scale all em, rem, and % amounts up by 10%: */
+		font-size: 100%;
+	}
+	header, nav, main, footer {
+		/* Give them a fixed width so they stop growing */
+		width: 1280px;
+		/* To horizontally center an element in its container: */
+		margin: 0 auto 0 auto;
+	}
+} /* closes 1280 M Q */
