@@ -22,7 +22,7 @@
 html
 {
   overflow-y: scroll;
-
+  background-color: #282828;
 
 
 }
@@ -65,10 +65,11 @@ html
 
 .MainContentWrapper
 {
-    background-color: #B3CBE4;
+    background-color: #005984;
     padding: 10px;
     margin: auto;
     margin-top: 30px;
+    color: #D6D6D6;
 }
 
 .ContentImage
@@ -109,4 +110,8 @@ tr
 {
     text-align: left;
     margin: 10%;
+}
+
+body {
+  background-color: #282828;
 }
