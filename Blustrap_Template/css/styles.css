@@ -1,0 +1,112 @@
+/*Scrollbar*/
+  /* Width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.507);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(192, 40, 13);
+  }
+
+html
+{
+  overflow-y: scroll;
+
+
+
+}
+
+@media only screen and (min-width: 701px)
+{
+    .Mobile-Only
+    {
+      display: none !important;
+    }
+
+    .Desktop-Only
+    {
+      display: block !important;
+    }
+}
+
+@media only screen and (max-width: 702px)
+{
+    .Mobile-Only
+    {
+      display: block !important;
+    }
+
+    .Desktop-Only
+    {
+      display: none !important;
+    }
+}
+
+.navbar
+{
+    background-color: #102336 !important;
+}
+
+.nav-link
+{
+    color: #D6D6D6 !important;
+}
+
+.MainContentWrapper
+{
+    background-color: #B3CBE4;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.ContentImage
+{
+    padding: 30px;
+}
+
+.SpannedImage
+{
+    margin: auto;
+    display: block;
+}
+
+.FullSize
+{
+    width: 100%;
+    height: auto;
+}
+
+.HalfSize
+{
+    width: 50%;
+    height: auto;
+}
+
+#SubmitFormButton
+{
+    margin-top: 20px;
+}
+
+table
+{
+    width: 100%;
+    height: 100%;
+}
+
+tr
+{
+    text-align: left;
+    margin: 10%;
+}
