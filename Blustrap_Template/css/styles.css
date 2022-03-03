@@ -123,3 +123,7 @@ body {
   background-color: #121212;
   padding: 20px 0px;
 }
+
+greyHover :hover{
+  color: #282828;
+}
