@@ -23,7 +23,7 @@ html
 {
   overflow-y: scroll;
   background-color: #282828;
-
+  
 
 }
 
@@ -112,6 +112,14 @@ tr
     margin: 10%;
 }
 
+
 body {
   background-color: #282828;
+  color: #D6D6D6;
+  
+}
+
+.SecondaryContentWrapper {
+  background-color: #121212;
+  padding: 20px 0px;
 }
